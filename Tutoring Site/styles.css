@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/*Global / Desktop View*/
+header {
+    background-color: rgba(159,15,231,0.56);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.move-down {
+    margin-top: 75px;
+}
+
+nav {
+    float: right;
+    margin-bottom: auto;
+    margin-top: 15px;
+}
+.mobile-view  {
+    display: none;
+}
+.service-view ul li .btn-purple {
+    list-style-type: none;
+    margin-top: 0px;
+}
+.desktop-view {
+    display: block;
+    margin-top: -10px;
+}
+.desktop-view ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.btn-purple {
+    background-color: rgba(172, 5, 241, 1);
+    border-radius : 20px;
+    -moz-border-radius : 20px;
+    -webkit-border-radius : 20px;
+    width: 175px;
+    height: 42px;
+    text-decoration: none;
+    font-family : Semplicita Pro;
+    font-weight : bold;
+    font-size : 17px;
+    color : #E5E5E5;
+    color : rgb(229, 229, 229);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    top: auto;
+}
+.container.move-down .info-container .btn-purple {
+    margin-top: 10px;
+}
+.more2 {
+    top: 50px;
+}
+body {
+    background-image: url(images/1x/Background%20Image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #020606;	
+}
+.info-container {
+    float: left;
+    background-color: hsla(0,0%,100%,0.75);
+    opacity : 1;
+    border-radius : 28px;
+    -moz-border-radius : 28px;
+    -webkit-border-radius : 28px;
+  	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+    width: 275px;
+    margin-right: 60px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 0px;
+    height: 330px;
+    font-family : Semplicita Pro;
+    font-weight : bold;
+    font-size : 17px;
+    color: #000000;
+    text-shadow: 0px 0px hsla(0,0%,100%,0.92);
+}
+.container.move-down .info-container img {
+    margin-top: 15px;
+    float: left;
+}
+.container.move-down span ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+body footer {
+    min-height: 50px;
+    background-color: hsla(359,90%,45%,1.00);
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(159,15,231,0.56);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body main {
+    min-height: 375px;
+}
+.one-container {
+    background-color: hsla(0,0%,100%,0.75);
+    opacity : 1;
+    border-radius : 28px;
+    -moz-border-radius : 28px;
+    -webkit-border-radius : 28px;
+  	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+    width: 0px;
+    position: static;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 400px;
+    font-family : Semplicita Pro;
+    font-weight : bold;
+    font-size : 17px;
+    color: #000000;
+    text-shadow: 0px 0px hsla(0,0%,100%,0.92);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.services {
+}
+.about-body {
+    font-weight: normal;
+}
+.service-view {
+    display: none;
+}
+.expand{
+	display: block;
+}
+ul li .btn-purple {
+    text-decoration: none;
+    list-style-type: none;
+}
+header .service-view ul {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+header .service-view ul li {
+    padding-top: 12px;
+    text-align: right;
+    position: static;
+    right: 0
+auto;
+}
+.container.move-down .info-container img {
+    float: none;
+}
+.widen {
+    width: 700px;
+}
+.about-image {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+/*Tablet View*/
+@media (min-width : 401px ) and ( max-width : 768px ){
+.mobile-view {
+    display: block;
+    float: right;
+    padding-top: 15px;
+}
+.desktop-view {
+    display: none;
+    text-align: right;
+}
+.expand {
+    display: block;
+}
+nav .desktop-view ul li {
+    display: block;
+    padding-top: 30px;
+}
+.widen {
+    width: 350px;
+	
+}
+}
+
+/*Mobile View*/
+@media (max-width: 400px){
+.mobile-view {
+    display: block;
+}
+.desktop-view {
+    display: none;
+    float: right;
+    text-align: right;
+}
+.expand {
+    display: block;
+}
+
+	.widen{
+		width: 100px;
+		
+	}
+
+}
